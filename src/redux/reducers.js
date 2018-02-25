@@ -55,6 +55,11 @@ const initialState = [
         author: 'Eric',
         title: 'The best way to sacrifice',
         content: 'Learning how to learn'
+    },
+    {
+        author: 'Chris',
+        title: 'The ultimate way to get loud, loud as fuck',
+        content: 'Trying to configure his voice right so it doesnt blow shit up'
     }
 ]
 
