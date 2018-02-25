@@ -50,6 +50,11 @@ const initialState = [
         author: 'Grant',
         title: 'The ultimate way to get it all done',
         content: 'Learning the art of being in multiple places at the same time'
+    },
+    {
+        author: 'Eric',
+        title: 'The best way to sacrifice',
+        content: 'Learning how to learn'
     }
 ]
 
