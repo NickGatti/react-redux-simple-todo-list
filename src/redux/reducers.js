@@ -85,6 +85,11 @@ const initialState = [
         author: 'Sam',
         title: 'The best way to get rid of cats',
         content: 'Loves LOVES dogs.'
+    },
+    {
+        author: 'Katie',
+        title: 'The best way to cook home meals',
+        content: 'Hungry hungry mouths'
     }
 ]
 
