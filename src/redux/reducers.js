@@ -90,6 +90,11 @@ const initialState = [
         author: 'Katie',
         title: 'The best way to cook home meals',
         content: 'Hungry hungry mouths'
+    },
+    {
+        author: 'Nmuta',
+        title: 'The best way to put his feet up',
+        content: 'Cuz that way just wasnt comfortable enough, maybe this way is a lil better, been there seen that'
     }
 ]
 
