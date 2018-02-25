@@ -30,7 +30,12 @@ const initialState = [
         author: 'David',
         title: 'The way to stand tall in high winds',
         content: 'Knocks shit down when it looks like shit, smashes it. Even at his own risk.'
-    }
+    },
+    {
+        author: 'Vaga',
+        title: 'The way to believe in the right things',
+        content: 'Feels the way around until he loses himself'
+    },
 ]
 
 export const addTodoReducer = ( state = initialState, action ) => {
