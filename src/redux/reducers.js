@@ -80,6 +80,11 @@ const initialState = [
         author: 'God',
         title: 'Willed it',
         content: 'What now? Everything is built.'
+    },
+    {
+        author: 'Sam',
+        title: 'The best way to get rid of cats',
+        content: 'Loves LOVES dogs.'
     }
 ]
 
