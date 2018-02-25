@@ -95,6 +95,11 @@ const initialState = [
         author: 'Nmuta',
         title: 'The best way to put his feet up',
         content: 'Cuz that way just wasnt comfortable enough, maybe this way is a lil better, been there seen that'
+    },
+    {
+        author: 'Courtney',
+        title: 'The best way to just absorb it for now',
+        content: 'Really liking it, loving it in fact, this is the best'
     }
 ]
 
