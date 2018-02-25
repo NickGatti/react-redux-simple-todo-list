@@ -75,6 +75,11 @@ const initialState = [
         author: 'Jesus',
         title: 'Taking credit, teaching',
         content: 'Chillin\''
+    },
+    {
+        author: 'God',
+        title: 'Willed it',
+        content: 'What now? Everything is built.'
     }
 ]
 
