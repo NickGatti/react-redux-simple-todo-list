@@ -25,14 +25,19 @@ const initialState = [
         author: 'Jeff',
         title: 'The ultimate process for diplomacy',
         content: 'All seeing, sees the verge of conflict'
+    },
+    {
+        author: 'David',
+        title: 'The way to stand tall in high winds',
+        content: 'Knocks shit down when it looks like shit, smashes it. Even at his own risk.'
     }
 ]
 
-export const addTodoReducer = (state = initialState, action) => {
-    switch(action.type) {
-        case('ADD_TODO'):
-            return state.concat(action.payload)
-        default:
-            return state
+export const addTodoReducer = ( state = initialState, action ) => {
+    switch ( action.type ) {
+    case ( 'ADD_TODO' ):
+        return state.concat( action.payload )
+    default:
+        return state
     }
 }
