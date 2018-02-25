@@ -5,13 +5,15 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { addTodo } from '../redux/actions'
 
-const TodoList = (props) => {
+import { ListGroup } from 'reactstrap'
+
+export const TodoList = (props) => {
     let todoList = props.todos.map( ( todo, index ) => <Todo key={index} todo={todo} /> )
 
     return (
-        <div>
+        <ListGroup>
             {todoList}
-        </div>
+        </ListGroup>
     )
 }
 
@@ -23,7 +25,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        runAddTodo: bindActionCreators(addTodo, dispatch)
+        runAddTodoReducer: bindActionCreators(addTodo, dispatch)
     }
 }
 
