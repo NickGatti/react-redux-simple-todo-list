@@ -60,6 +60,11 @@ const initialState = [
         author: 'Chris',
         title: 'The ultimate way to get loud, loud as fuck',
         content: 'Trying to configure his voice right so it doesnt blow shit up'
+    },
+    {
+        author: 'Lara',
+        title: 'Going crazy',
+        content: 'Learning she better believe it'
     }
 ]
 
