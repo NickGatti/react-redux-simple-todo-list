@@ -125,6 +125,11 @@ const initialState = [
         author: 'Donny',
         title: 'The besy way to spend time with mommy',
         content: 'Things change buddy, Ill be around'
+    },
+    {
+        author: 'Jorden',
+        title: 'The best way to stop being a student',
+        content: 'Woz U... how cool, learn how to hack'
     }
 ]
 
