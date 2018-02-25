@@ -66,6 +66,11 @@ const initialState = [
         title: 'Going crazy',
         content: 'Learning she better believe it before she sears someone into a charred brick'
     },
+    {
+        author: 'Meryl',
+        title: 'The best way to let go',
+        content: 'Learning its not just him, its her also'
+    }
 ]
 
 export const addTodoReducer = ( state = initialState, action ) => {
