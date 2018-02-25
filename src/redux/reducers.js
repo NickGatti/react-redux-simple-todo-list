@@ -120,6 +120,11 @@ const initialState = [
         author: 'Shelby',
         title: 'The best way to dial it in',
         content: 'Because being wrong was the best thing that ever happened'
+    },
+    {
+        author: 'Donny',
+        title: 'The besy way to spend time with mommy',
+        content: 'Things change buddy, Ill be around'
     }
 ]
 
