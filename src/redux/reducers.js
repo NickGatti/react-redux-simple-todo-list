@@ -41,6 +41,11 @@ const initialState = [
         title: 'The way to love through trust',
         content: 'Getting good at running away'
     },
+    {
+        author: 'Amy',
+        title: 'The best way to make time',
+        content: 'Learning the art of scheduling for real now'
+    },
 ]
 
 export const addTodoReducer = ( state = initialState, action ) => {
