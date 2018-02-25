@@ -70,6 +70,11 @@ const initialState = [
         author: 'Meryl',
         title: 'The best way to let go',
         content: 'Learning its not just him, its her also'
+    },
+    {
+        author: 'Jesus',
+        title: 'Taking credit, teaching',
+        content: 'Chillin\''
     }
 ]
 
