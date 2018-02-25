@@ -105,6 +105,11 @@ const initialState = [
         author: 'Bryce',
         title: 'The best way to spend a good night',
         content: 'Realizing hes been there so much, no one bothers to think he isnt'
+    },
+    {
+        author: 'Diana',
+        title: 'The best way to hold a pen',
+        content: 'Its going to come and its not gonna stop'
     }
 ]
 
